@@ -1,0 +1,8 @@
+"/home/ahmed/Appcelerator_Studio_Workspace/maktbti/build/android/gen/android/support/v7/appcompat/R.java"
+"/home/ahmed/Appcelerator_Studio_Workspace/maktbti/build/android/gen/android/support/v7/cardview/R.java"
+"/home/ahmed/Appcelerator_Studio_Workspace/maktbti/build/android/gen/com/ahmedkesha/maktbti/Activity.java"
+"/home/ahmed/Appcelerator_Studio_Workspace/maktbti/build/android/gen/com/ahmedkesha/maktbti/AppInfo.java"
+"/home/ahmed/Appcelerator_Studio_Workspace/maktbti/build/android/gen/com/ahmedkesha/maktbti/Application.java"
+"/home/ahmed/Appcelerator_Studio_Workspace/maktbti/build/android/gen/com/ahmedkesha/maktbti/AssetCryptImpl.java"
+"/home/ahmed/Appcelerator_Studio_Workspace/maktbti/build/android/gen/com/ahmedkesha/maktbti/R.java"
+"/home/ahmed/Appcelerator_Studio_Workspace/maktbti/build/android/gen/ti/modules/titanium/ui/R.java"

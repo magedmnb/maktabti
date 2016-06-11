@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <id>com.ahmedkesha.maktbti</id>
+    <name>مكتبتي</name>
+    <version>1.1</version>
+    <publisher>ahmed</publisher>
+    <url/>
+    <description/>
+    <copyright>2016 by ahmed</copyright>
+    <icon>appicon.png</icon>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>672ac45d-92f6-42b5-9222-4ff70ff1fb76</guid>
+    <property name="ti.ui.defaultunit" type="string">dp</property>
+    <ios>
+        <plist>
+            <dict>
+                <key>UISupportedInterfaceOrientations~iphone</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                </array>
+                <key>UISupportedInterfaceOrientations~ipad</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                    <string>UIInterfaceOrientationPortraitUpsideDown</string>
+                    <string>UIInterfaceOrientationLandscapeLeft</string>
+                    <string>UIInterfaceOrientationLandscapeRight</string>
+                </array>
+                <key>UIRequiresPersistentWiFi</key>
+                <false/>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+                <key>UIStatusBarHidden</key>
+                <false/>
+                <key>UIStatusBarStyle</key>
+                <string>UIStatusBarStyleDefault</string>
+            </dict>
+        </plist>
+    </ios>
+    <android xmlns:android="http://schemas.android.com/apk/res/android">
+    	<manifest android:versionCode="2" android:versionName="1.1">
+		</manifest>
+    </android>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs">ti.cloud</module>
+    </modules>
+    <deployment-targets>
+        <target device="iphone">false</target>
+        <target device="ipad">false</target>
+        <target device="android">true</target>
+        <target device="mobileweb">false</target>
+        <target device="windows">false</target>
+    </deployment-targets>
+    <sdk-version>5.1.1.GA</sdk-version>
+    <property name="appc-app-id" type="string">5735c18c8e234da619cdcb13</property>
+    <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-development" type="string">THlJQ8OVh4C14PAk55dZOeKFvQc1D8Ou</property>
+    <property name="acs-oauth-key-development" type="string">3boN1wNL3CvocTLCwDyhcF3p0XJCRpRC</property>
+    <property name="acs-api-key-development" type="string">PEt77ktyIQ3kx6qHU7LUhwZxxMX3HL39</property>
+    <property name="acs-username-development" type="string">appc_app_user_dev</property>
+    <property name="acs-password-development" type="string">CyYKWcYWyg9LzKZzAO</property>
+    <property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-production" type="string">gF5svbAT4OcRbVvKA8AuccwAWPugEIm0</property>
+    <property name="acs-oauth-key-production" type="string">EGO9I437oD8VkdFCCwKRrR3Li9w79ggv</property>
+    <property name="acs-api-key-production" type="string">yUzBkeSTfY735hNo7urf2Q2yWDcxmSEG</property>
+    <property name="acs-username-production" type="string">appc_app_user</property>
+    <property name="acs-password-production" type="string">rV8GTizj5HypryhHRo</property>
+    <property name="appc-org-id" type="string">100083828</property>
+    <property name="appc-creator-user-id" type="string">22743548-8b0f-458c-99d4-4626de858c01</property>
+</ti:app>
